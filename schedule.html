@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOTOSERV-FAQ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+</head>
+<style>
+  body {
+    padding-top: 70px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+  }
+
+  .card,
+  .card-header {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    box-shadow: 0 2px 25px 0 rgba(110, 130, 208, .18);
+  }
+
+  .btn-link {
+    width: 100%;
+    height: 60px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .card-body {
+    background: #e8eeff;
+  }
+
+  .btn-link:after {
+    content: '\2212';
+    width: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+    background: #e8eeff;
+  }
+
+  .btn-link.collapsed:after {
+    content: '\002B';
+  }
+
+  .btn-link:before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    /* background: #ffffff; */
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 30px;
+    top: 46px;
+  }
+
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1);
+  }
+  .back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 25px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.back-to-top:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.show-back-to-top {
+  display: block;
+}
+#headingzero{
+  margin: 15px;
+}
+
+</style>
+
+<body>
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="./motoservlogo.png" alt="Your Logo" width="55px">
+      
+    </a>
+    <div class="card-header" id="headingzero">
+      <h3><b>FAQ</b></h3>
+   </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq1.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="parts.html">Parts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="billing.html">Billing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mechanic.html">Mechanic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="warranty.html">Warranty</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <h1 fixed-top>Frequently Asked Questions</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <center>
+          <h4>SCHEDULE</h4>
+        </center>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  I don’t know what’s wrong with my car. What can I do?
+
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                You can book an appointment for a mechanic to come out to you and inspect your car. They will provide their inspection report and recommend services that your car needs..
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Why is a credit card required to book an appointment?
+
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Your credit card is not billed until the mechanic has performed all the services. However, a valid credit card is required to hold your appointment and to verify that the appointment request is legitimate. We use bank-level security and all your data is passed over a secured 256-bit encrypted connection.
+              </div>
+            </div>
+          </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How late can I cancel an appointment?
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  We request that you cancel your appointment more than 24 hours prior to your appointment start time. If you have to cancel less than 24 hours before your appointment, you will be charged an Rs.199. If a cancellation fee is charged, You can cancel your appointment using your online account or by calling us at 9830180807.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How late can I reschedule an appointment?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                  We request that you reschedule your appointment more than 48 hours prior to your appointment start time. If you have to reschedule with less than 48 hours before your appointment, you will be charged a Rs.99. You can reschedule your appointment through your online account or by calling us at 9830180807
+                </div>
+              </div>
+
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    How can I reschedule an appointment?
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                  You can reschedule your appointment using your online account, mobile app, or by calling us at 9830180807
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                    aria-expanded="false" aria-controls="collapseSix">
+                    How can I book an appointment?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <div class="card-body">
+                  You can book an appointment online by selecting your location, car, and services. You will see the breakdown of labor fees and parts costs. You will also see the list of available times.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSeven">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Can I choose a mechanic?
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                <div class="card-body">
+                  You can choose the same mechanic if you have used the service before. If you are a new customer, we assign you a mechanic who is qualified to work on your car.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingEight">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    How soon can I get a mechanic?
+
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                <div class="card-body">
+                  We have mechanics available 24x7. Within 15 to 20 minutes. You can see the mechanics' availability after you request a quote.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingNine">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    What if the mechanic is late?
+
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                <div class="card-body">
+                  Please remember to allow 30 minutes for your mechanic to arrive. If you have not heard from Motoserv by your appointment time, please make a call at 9830180807 and we will work to resolve the issue. If you need to reschedule, we will take care of this for you as well.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+</body>
+<script>
+  $(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').addClass('show-back-to-top');
+    } else {
+      $('.back-to-top').removeClass('show-back-to-top');
+    }
+  });
+
+  $('.back-to-top').click(function() {
+    $('html, body').animate({scrollTop : 0}, 800, 'easeInOutExpo');
+    return false;
+  });
+});
+
+
+</script>
+
+</html>

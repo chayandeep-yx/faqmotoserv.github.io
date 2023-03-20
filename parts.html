@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOTOSERV-FAQ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+</head>
+<style>
+  body {
+    padding-top: 70px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+  }
+
+  .card,
+  .card-header {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    box-shadow: 0 2px 25px 0 rgba(110, 130, 208, .18);
+  }
+
+  .btn-link {
+    width: 100%;
+    height: 60px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .card-body {
+    background: #e8eeff;
+  }
+
+  .btn-link:after {
+    content: '\2212';
+    width: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+    background: #e8eeff;
+  }
+
+  .btn-link.collapsed:after {
+    content: '\002B';
+  }
+
+  .btn-link:before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    /* background: #ffffff; */
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 30px;
+    top: 46px;
+  }
+
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1);
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 25px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 9999;
+  }
+
+  .back-to-top:hover {
+    background-color: #555;
+    color: #fff;
+  }
+
+  .show-back-to-top {
+    display: block;
+  }
+
+  #headingzero {
+    margin: 15px;
+  }
+</style>
+
+<body>
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="./motoservlogo.png" alt="Your Logo" width="55px">
+    </a>
+    <div class="card-header" id="headingzero">
+      <h3><b>FAQ</b></h3>
+   </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq1.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="parts.html">Parts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="billing.html">Billing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mechanic.html">Mechanic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="warranty.html">Warranty</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <h1 fixed-top>Frequently Asked Questions</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <center>
+          <h4>PARTS</h4>
+        </center>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  How do I know the parts are of good quality?
+
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                The parts team at Motoserv has gone through a rigorous filtering process to select the brands that are
+                best suited for your car. Our parts catalog has a list of approved brands for each type of car and each
+                type of part. When reviewing your quote, you will see the brands of the parts.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Where are the parts coming from?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                We buy parts from several vendors - from local vendors to wholesale suppliers across the nation,
+                allowing you to receive high-quality parts at reasonable prices. Whenever possible, we prefer OEM
+                (original equipment manufacturer) or OE-equivalent parts, and we think they are better for your car. We
+                also offer high-quality aftermarket parts, often from the same manufacturer as the original parts.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Do you ever use Remanufactured or used parts?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                We do not engage in the business of supplying or installing used parts. Only in very rare cases do the
+                mechanics in our network ever use remanufactured parts - usually in older cars where the parts
+                manufacturers have discontinued the production of new parts. In those rare cases, the parts will be
+                marked as "remanufactured" on your quote.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                  aria-expanded="false" aria-controls="collapseFour">
+                  Can I provide my own parts?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Yes, you are welcome to buy your own parts and book one of our mechanics to install them. From there,
+                you can choose to remove all the parts from your quote. Please note: when you provide your own parts,
+                our service warranty is voided.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script>
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('.back-to-top').addClass('show-back-to-top');
+      } else {
+        $('.back-to-top').removeClass('show-back-to-top');
+      }
+    });
+
+    $('.back-to-top').click(function () {
+      $('html, body').animate({ scrollTop: 0 }, 800, 'easeInOutExpo');
+      return false;
+    });
+  });
+
+
+</script>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOTOSERV-FAQ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<style>
+  body{
+    padding-top: 70px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+    margin: 50px 0 !important;
+    font-family: sans-serif;
+  }
+  .card,.card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+  }
+
+.card{
+  box-shadow: 0 2px 25px 0 rgba(110,130,208, .18);
+}
+.btn-link{
+  width: 100%;
+  height: 60px;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+
+ .card-body{
+  background: #e8eeff;
+ }
+ .btn-link:after{
+  content: '\2212';
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 11px;
+  position: absolute;
+  background: #e8eeff;
+}
+.btn-link.collapsed:after{
+  content: '\002B';
+}
+.btn-link:before{
+  content:'';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  /* background: #ffffff; */
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 30px;
+  top: 46px;
+}
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1);
+}
+#headingzero{
+  margin: 15px;
+}
+
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="./motoservlogo.png" alt="Your Logo" width="55px">
+      
+    </a>
+    <div class="card-header" id="headingzero">
+      <h3><b>FAQ</b></h3>
+   </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq1.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="parts.html">Parts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="billing.html">Billing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mechanic.html">Mechanic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="warranty.html">Warranty</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+  <br>
+  <br>
+  <br>
+  <h1 fixed-top>Frequently Asked Questions</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <center><h4>MECHANIC</h4></center>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How do mechanics work with Motoserv? 
+
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Motoserv is a network of expert mobile mechanics. Once approved, mechanics are booked for jobs through Motoserv. Although you are provided the service by the mechanics in our network, we stand behind the service with our 3-month, 1000-km warranty.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How do I get a mechanic who specializes in my car (Honda, Ford, BMW, etc.)?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Many of our mechanics have dealer or factory training with certain brands. Some of them have years of experience working on certain types of cars e.g. You can see their particular strengths and expertise on their profiles, as well as reviews from previous customers who own the same make of car as yours.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How are the mechanics screened? 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Mechanics are screened through a two-step process:
+Step 1: We perform a background check, skills check, and a one-on-one interview with the mechanic. About 5-10% of the mechanics who apply are approved.
+Step 2: If the mechanic passes the screening process, we allow them to accept jobs from customers. Our mechanics are rated by the customer after every job to ensure the highest service standards are upheld.
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Are the mechanics certified? 
+
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Most of our mechanics are certified by skilled india and ITI Some of our mechanics are certified by similar organizations and/or have dealer or factory training. You can see mechanics' certifications on their profile online, which is accessible during the booking process. You can also review their experience, work history, jobs completed for other car owners, fees paid by other car owners, and real customers' ratings and reviews. 
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  
+</body>
+</html>
